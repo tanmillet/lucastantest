@@ -17,5 +17,11 @@
       "Colors\\Green\\": "src/Colors/Green/",
       "Colors\\Red\\": "src/Colors/Red/"
     }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
   }
 }
