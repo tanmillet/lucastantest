@@ -1,0 +1,21 @@
+{
+  "name": "terrylucas/testdemo",
+  "description": "''\u001b[Dtest package to composer",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "TerryLucas",
+      "email": "tanmillet@sina.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Colors\\Green\\": "src/Colors/Green/",
+      "Colors\\Red\\": "src/Colors/Red/"
+    }
+  }
+}
